@@ -22,6 +22,9 @@ body{
     height: 30px;
     margin: 5px;
     cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 
@@ -44,6 +47,8 @@ body{
     height: 50rem;
 }
 
+
+
 .instagramConta{
      display: flex; 
      align-items: center; /* horizontal */
@@ -62,6 +67,7 @@ body{
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    border-radius: 3px;
 }
 
 .group:nth-child(1){
@@ -94,6 +100,9 @@ body{
 
 .instagramLogout{
     color: #0095f6;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
     margin-top: 1rem;
 }
 

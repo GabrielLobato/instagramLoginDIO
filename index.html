@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Instagram</title>
 </head>
+
 <body>
-    <img src="img/switchLight.png" id="switch" onclick="darkMode()">
+        <img src="img/switchLight.png" alt="" id="switch" onclick="darkMode()">
     <!-- criando div principal da página -->
-    <div class="instagramWrapper"> 
+    <div class="instagramWrapper">
         <!-- div onde fica localizada a imagem do celular -->
         <div class="instagramPhone">
-            <img src="img/instaCelWhite2.png" alt="interface">
+            <img src="img/instaCelWhite2.png" alt="interface" id="phone">
         </div>
         <!-- div onde fica localizada a região de login -->
         <div class="instagramConta">
+            <!-- <img src="img/switchLight.png" alt="" id="switch" onclick="darkMode()"> -->
             <!-- abre div group para logo do instagram, foto de perfil e botões de continuar/remover conta  -->
             <div class="group">
                 <img src="img/instaLogo.png" class="instagramLogo" alt="logo Instagram">
                 <!-- abre div prfile -->
                 <div class="profilePic">
                     <img src="img/profile.jpg" alt="foto de perfil">
-                <!-- fecha div profile -->
+                    <!-- fecha div profile -->
                 </div>
                 <!-- tags "a" para colocar os botões -->
                 <a href="#" class="instagramLogin">Continue como gabriel.lobato</a>
@@ -35,10 +38,10 @@
                 <p class="notAccount">Não é gabriel.lobato?</p>
                 <p class="notAccount">
                     <span class="linkBlue">Alternar contas</span>
-                    ou 
+                    ou
                     <span class="linkBlue">Inscreva-se</span>
                 </p>
-            <!-- fecha div group -->
+                <!-- fecha div group -->
             </div>
             <!-- abre div para os botões de download para dispositivos móveis -->
             <div class="app">
@@ -47,12 +50,13 @@
                     <a href="" class="appDownload"></a>
                     <a href="" class="appDownload"></a>
                 </div>
-            <!-- fecha div app -->
+                <!-- fecha div app -->
             </div>
-        <!-- fecha div instagramConta -->
+            <!-- fecha div instagramConta -->
         </div>
-    <!-- fecha div instagramWrapper  -->
+        <!-- fecha div instagramWrapper  -->
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
