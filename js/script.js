@@ -1,4 +1,5 @@
-let i;
+// variável i poderia ser um valor boolean retornando true/false, mas a preferência foi zeros(0) e ums(1)
+var i; 
 
 function darkMode() {
     if (i == undefined || i == 0) {
